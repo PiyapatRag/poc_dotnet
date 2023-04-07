@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegisterationForm.DAL", "RegisterationForm.DAL\RegisterationForm.DAL.csproj", "{5EEC7EED-1E9A-41CA-AE6E-105E1D691195}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegisterationForm.BL", "RegisterationForm.BL\RegisterationForm.BL.csproj", "{BB2A5C9C-A783-4A1D-92D5-C18A9F83CBBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegisterationForm.Domain", "RegisterationForm.Domain\RegisterationForm.Domain.csproj", "{B20B9263-6645-48BD-96F3-1BCEF6735495}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegisterationForm.Infrastructure", "RegisterationForm.Infrastructure\RegisterationForm.Infrastructure.csproj", "{D2C3E4F3-B32F-4538-8318-681352A14046}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegisterationForm.IoC", "RegisterationForm.IoC\RegisterationForm.IoC.csproj", "{1C924173-E573-47FB-80C3-44D5F5ADB799}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegisterationForm.Api", "RegisterationForm.Api\RegisterationForm.Api.csproj", "{CC7C672D-C74A-4537-8C13-676A36C53798}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RegisterationForm.UI", "RegisterationForm.UI\", "{155D85CB-6DD7-4ACA-8072-AECA5BEA2728}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_7631"
+		Debug.AspNetCompiler.PhysicalPath = "RegisterationForm.UI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7631\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_7631"
+		Release.AspNetCompiler.PhysicalPath = "RegisterationForm.UI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7631\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "7631"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EEC7EED-1E9A-41CA-AE6E-105E1D691195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EEC7EED-1E9A-41CA-AE6E-105E1D691195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EEC7EED-1E9A-41CA-AE6E-105E1D691195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EEC7EED-1E9A-41CA-AE6E-105E1D691195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB2A5C9C-A783-4A1D-92D5-C18A9F83CBBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2A5C9C-A783-4A1D-92D5-C18A9F83CBBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2A5C9C-A783-4A1D-92D5-C18A9F83CBBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2A5C9C-A783-4A1D-92D5-C18A9F83CBBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20B9263-6645-48BD-96F3-1BCEF6735495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20B9263-6645-48BD-96F3-1BCEF6735495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20B9263-6645-48BD-96F3-1BCEF6735495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20B9263-6645-48BD-96F3-1BCEF6735495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C3E4F3-B32F-4538-8318-681352A14046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C3E4F3-B32F-4538-8318-681352A14046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C3E4F3-B32F-4538-8318-681352A14046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C3E4F3-B32F-4538-8318-681352A14046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C924173-E573-47FB-80C3-44D5F5ADB799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C924173-E573-47FB-80C3-44D5F5ADB799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C924173-E573-47FB-80C3-44D5F5ADB799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C924173-E573-47FB-80C3-44D5F5ADB799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC7C672D-C74A-4537-8C13-676A36C53798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7C672D-C74A-4537-8C13-676A36C53798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7C672D-C74A-4537-8C13-676A36C53798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7C672D-C74A-4537-8C13-676A36C53798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{155D85CB-6DD7-4ACA-8072-AECA5BEA2728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{155D85CB-6DD7-4ACA-8072-AECA5BEA2728}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{155D85CB-6DD7-4ACA-8072-AECA5BEA2728}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{155D85CB-6DD7-4ACA-8072-AECA5BEA2728}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D501D891-5F6B-4777-93E7-3127D90A2433}
+	EndGlobalSection
+EndGlobal
